@@ -1,0 +1,76 @@
+html, body {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+}
+
+header {
+    width: 100%;
+    background: teal;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+#instructions {
+    width: 80%;
+    background: lightgrey;
+    border: 2px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#search_container {
+    width: 80%;
+    background: lightgoldenrodyellow;
+    border: 2px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    padding-bottom: 10px;
+    margin-bottom: 20px;
+}
+
+#button_container {
+    width: 80%;
+    background: lightgreen;
+    border: 2px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+}
+
+#giphy_container {
+    width: 80%;
+    background: lightblue;
+    border: 2px solid grey;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1, h2, #giphy_clear, #button_clear, #button_window {
+    text-align: center;
+}
+
+h1 {
+    margin: 0px;
+    line-height: 100px;
+}
+
+h2 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+p {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+button, img {
+    margin: 5px;
+}

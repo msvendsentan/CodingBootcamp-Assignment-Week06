@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Giphy API Assignment</title>
+        <link rel="stylesheet" type="text/css" href="./assets/css/style.css">
+        <script src="https://code.jquery.com/jquery-3.3.1.js" integrity="sha256-2Kok7MbOyxpgUVvAk/HJ2jigOSYS2auK4Pfzbm7uH60=" crossorigin="anonymous"></script>
+        <script src="./assets/javascript/script.js"></script>
+    </head>
+    <body>
+        <header><h1>Gif Selector</h1></header>
+        <div id="instructions">
+            <h2>Instructions</h2>
+            <p>Search for gifs of your choice! Click the button to grab some gifs! <strong>Click on the pictures to start/stop your gifs!</strong></p>
+        </div>
+
+        <div id="search_container">
+            <div id="search_title"><h2>Search for Gifs</h2></div>
+            <form id="gif_form">
+                <input type="text" id="gif_input">            
+                <input id="add_gif" type="submit" value="Add a GIF">
+            </form>
+        </div>
+
+        <div id="button_container">
+            <div id="button_title"><h2>Click to Populate Gifs</h2></div>
+            <div id="button_clear"><button id="button_clear_button">Clear Your Buttons</button></div>
+            <div id="button_window"></div>
+        </div>
+
+        <div id="giphy_container">
+            <div id="giphy_title"><h2>Your Gifs</h2></div>
+            <div id="giphy_clear"><button id="gif_clear_button">Clear Your Gifs</button></div>
+            <div id="giphy_window"></div>
+
+        </div>
+
+    </body>
+</html>
