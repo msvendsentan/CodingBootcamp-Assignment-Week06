@@ -14,7 +14,7 @@ var apiKey = "7nmYjfK7aIw2DibGaq0g6eSOs4b0BzwF";
 function displayGIFs() {
 
     searchTerm = $(this).attr("data-term");
-    queryURL = "http://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=" + apiKey + "&limit=10";
+    queryURL = "https://api.giphy.com/v1/gifs/search?q=" + searchTerm + "&api_key=" + apiKey + "&limit=10";
 
     $.ajax({
         url: queryURL,
